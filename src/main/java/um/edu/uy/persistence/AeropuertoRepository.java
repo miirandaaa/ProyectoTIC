@@ -7,6 +7,4 @@ import um.edu.uy.business.entities.Aeropuerto;
 @Repository
 public interface AeropuertoRepository extends CrudRepository<Aeropuerto, Long> {
 
-    Aeropuerto findOneByUsername(String username);
-
 }
