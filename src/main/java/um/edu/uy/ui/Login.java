@@ -49,7 +49,7 @@ public class Login {
 
         }
         // chequear el tipo de usuario que es si es aerolinea que lo lleve a aerolinea si es aeropuerto que lo lleve a aeropuerto
-        if (user.getText())
+        //if (user.getText())
     }
 
     @FXML

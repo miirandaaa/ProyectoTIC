@@ -14,18 +14,5 @@ public class AeropuertoManager {
     @Autowired
     private AeropuertoRepository aeropuertoRepository;
 
-    public void agregarAeropuerto(Aeropuerto aeropuerto) throws InvalidUserInformation, UserAlreadyExists {
 
-        if (aeropuerto.getUsername() == null || "".equals(usuario.getUsername()) || usuario.getPassword() == null || "".equals(usuario.getPassword())) {
-            throw new InvalidUserInformation("Alguno de los datos ingresados no es correcto");
-
-        }
-        // Verifico si el cliente no existe
-
-        if (userRepository.findOneByUsername(usuario.getUsername()) != null) {
-            throw new UserAlreadyExists();
-        }
-        userRepository.save(usuario);
-    }
-}
 }

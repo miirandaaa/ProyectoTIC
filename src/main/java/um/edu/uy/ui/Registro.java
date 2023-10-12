@@ -21,6 +21,7 @@ import um.edu.uy.business.exceptions.UserAlreadyExists;
 import java.awt.event.KeyEvent;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Objects;
 import java.util.ResourceBundle;
 
 @Component
@@ -34,6 +35,9 @@ public class Registro implements Initializable {
 
     @FXML
     private ChoiceBox<String> choiceBoxTipoUsuario;
+
+    @FXML
+    private ChoiceBox<String> choiceBoxTipoRol;
 
     @FXML
     private PasswordField password;
@@ -54,6 +58,22 @@ public class Registro implements Initializable {
         userTypes.add("Cliente");userTypes.add("Aeropuerto");userTypes.add("Aerolinea");
         ObservableList<String> list = FXCollections.observableArrayList(userTypes);
         choiceBoxTipoUsuario.setItems(list);
+
+        if (Objects.equals(choiceBoxTipoUsuario.getValue(), "Aeropuerto")) {
+            ArrayList<String> userRoles = new ArrayList<>();
+            userRoles.add("Super Admin");
+            userRoles.add("Administrador");
+            ObservableList<String> listRolesAeropuerto = FXCollections.observableArrayList(userRoles);
+            choiceBoxTipoUsuario.setItems(listRolesAeropuerto);
+        }
+
+        if (choiceBoxTipoUsuario.getValue() == "Aerolinea"){
+            ArrayList<String> userRoles = new ArrayList<>();
+            userRoles.add("Administrador");
+            ObservableList<String> listRolesAerolinea = FXCollections.observableArrayList(userRoles);
+            choiceBoxTipoUsuario.setItems(listRolesAerolinea);
+        }
+
     }
 
     @FXML
@@ -74,7 +94,7 @@ public class Registro implements Initializable {
                 try {
 
                     Usuarios usuario;
-                    usuario = new Usuarios(nombreUsuario, contrasena, choiceBoxTipoUsuario.getValue());
+                    usuario = new Usuarios(nombreUsuario, contrasena, choiceBoxTipoUsuario.getValue(), choiceBoxTipoRol.getValue());
 
                     userMgr.agregarUsuario(usuario);
 

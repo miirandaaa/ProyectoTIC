@@ -57,16 +57,6 @@ public class RegistrarAeropuerto {
             //        "Datos faltantes!",
             //       "No se ingresaron los datos necesarios para completar el ingreso.");
 
-        } else {
-            try {
-
-                String nombreAeropuerto = nombreAeropuerto.getText();
-                String contrasena = password.getText();
-
-
-            } catch (Exception e) {
-                throw new RuntimeException(e);
-            }
         }
     }
 }

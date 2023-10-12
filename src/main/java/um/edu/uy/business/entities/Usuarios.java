@@ -21,10 +21,13 @@ public class Usuarios {
 
     public String userType;
 
-    public Usuarios(String username, String password, String userType) {
+    public String userRole;
+
+    public Usuarios(String username, String password, String userType, String userRole) {
         this.username = username;
         this.password = password;
         this.userType = userType;
+        this.userRole = userRole;
     }
 
     public Usuarios() {

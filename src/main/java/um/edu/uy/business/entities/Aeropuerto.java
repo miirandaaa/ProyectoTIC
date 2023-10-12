@@ -10,6 +10,11 @@ import org.hibernate.annotations.GenericGenerator;
 @Table(name = "aeropuerto")
 public class Aeropuerto {
 
+    @Id
+    @GeneratedValue(generator="aeropuertos_ids")
+    @GenericGenerator(name="aeropuertos_ids", strategy = "increment")
+    public long id;
+
     public String nombreAeropuerto;
     public String ciudadAeropuerto;
     public String paisAeropuerto;
@@ -18,8 +23,6 @@ public class Aeropuerto {
     public Long numeroGates;
 
     public Long numeroCheckin;
-
-
 
     // nro puertas, nro pistas
 
