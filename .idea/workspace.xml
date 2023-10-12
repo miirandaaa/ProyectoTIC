@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="1e2b10e7-068f-4c17-aaa1-0efacac800ca" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/um/edu/uy/business/AeropuertoManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/um/edu/uy/business/AeropuertoManager.java" afterDir="false" />
@@ -12,6 +13,9 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/um/edu/uy/ui/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/um/edu/uy/ui/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/um/edu/uy/ui/Registro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/um/edu/uy/ui/Registro.java" afterDir="false" />
     </list>
+=======
+    <list default="true" id="b1995174-6337-43b4-8406-900a7f683dc3" name="Changes" comment="" />
+>>>>>>> 8be2f79459eedf0054e1229160dba55bb81c1d8a
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +41,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -44,10 +49,14 @@
   "associatedIndex": 4
 }]]></component>
   <component name="ProjectId" id="2WfSFI9d8e7dUjEI74bmd4XrPTC" />
+=======
+  <component name="ProjectId" id="2WfRVkmyBqWuj5dS54afI0os5WR" />
+>>>>>>> 8be2f79459eedf0054e1229160dba55bb81c1d8a
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -93,13 +102,22 @@
       </method>
     </configuration>
   </component>
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+>>>>>>> 8be2f79459eedf0054e1229160dba55bb81c1d8a
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1e2b10e7-068f-4c17-aaa1-0efacac800ca" name="Changes" comment="" />
-      <created>1697122040060</created>
+      <changelist id="b1995174-6337-43b4-8406-900a7f683dc3" name="Changes" comment="" />
+      <created>1697121708521</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1697122040060</updated>
       <workItem from="1697122483771" duration="1411000" />
     </task>
@@ -107,5 +125,21 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+=======
+      <updated>1697121708521</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+>>>>>>> 8be2f79459eedf0054e1229160dba55bb81c1d8a
   </component>
 </project>
